@@ -1,0 +1,14 @@
+models/
+outputs/
+cache/
+*.safetensors
+*.bin
+*.ckpt
+envs/
+*.log
+*.jsonl
+swanlog/
+*.tar.gz
+*.zip
+__pycache__/
+*.pyc
