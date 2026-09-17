@@ -1,0 +1,23 @@
+# 模型权重、大文件
+llama/models/
+llama/outputs/
+cache/
+*.safetensors
+*.bin
+*.ckpt
+
+# conda环境
+envs/
+
+# 日志
+*.log
+*.jsonl
+swanlab/
+
+# 压缩包
+*.tar.gz
+*.zip
+
+# python缓存
+__pycache__/
+*.pyc

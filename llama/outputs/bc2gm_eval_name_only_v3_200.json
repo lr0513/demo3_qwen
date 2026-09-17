@@ -1,0 +1,4480 @@
+{
+  "precision": 0.7723577235772358,
+  "recall": 0.7692307692307693,
+  "f1": 0.77079107505071,
+  "tp": 190,
+  "fp": 56,
+  "fn": 57,
+  "samples": [
+    {
+      "sentence": "Phenotypic analysis demonstrates that trio and Abl cooperate in regulating axon outgrowth in the embryonic central nervous system ( CNS ) .",
+      "gold": [
+        [
+          "GENE",
+          38,
+          42
+        ],
+        [
+          "GENE",
+          47,
+          50
+        ]
+      ],
+      "model_output": "[{\"name\": \"Abl\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          47,
+          50
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "sentence": "In the cervical enlargement they were located in the middle part of lamina VII and in lamina VIII , accounting for about 25 % of the total labeled neurons .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "We measured electromyograms ( EMG ) of the alae nasi to determine the relationship between their activity and timing to contraction of the rib cage muscles and diaphragm during obstructive apnea in nine patients .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A case control study ( 1 : 2 ) of 182 pairs of Hepatitis A was carried out in Weng - ling Zhe - jiang during April 1988 .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In the absence of shock , sepsis , or other identifiable causes of lactic acidosis , the severe anemia ( hemoglobin 1 . 2 g / dl ) appeared to be the primary etiologic factor .",
+      "gold": [
+        [
+          "GENE",
+          105,
+          115
+        ]
+      ],
+      "model_output": "[{\"name\": \"hemoglobin\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          105,
+          115
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "However the precise function of DNA - PK in DNA double - strand break repair is not known .",
+      "gold": [
+        [
+          "GENE",
+          32,
+          40
+        ]
+      ],
+      "model_output": "[{\"name\": \"DNA - PK\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          32,
+          40
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The COR biosynthetic gene cluster in P . syringae pv . glycinea PG4180 is encoded by a 32 - kb region which contains both the structural and regulatory genes needed for COR synthesis .",
+      "gold": [
+        [
+          "GENE",
+          4,
+          7
+        ],
+        [
+          "GENE",
+          169,
+          172
+        ]
+      ],
+      "model_output": "[{\"name\": \"COR biosynthetic gene cluster\", \"type\": \"GENE\"}, {\"name\": \"COR\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          33
+        ],
+        [
+          "GENE",
+          169,
+          172
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Substitution of cholinergic drugs in the treatment of Alzheimer type dementia ( AD / SDAT ) has hitherto not been very successful .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "FEurea was also measured during stable graft function , 7 - 14 days prior to allograft dysfunction .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The findings are discussed with reference to possible mechanisms by which parasite development might be controlled .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Interestingly , basal MAPK , but not Raf - 1 , activity was constitutively enhanced in Jak1 - deficient HeLa cells .",
+      "gold": [
+        [
+          "GENE",
+          22,
+          26
+        ],
+        [
+          "GENE",
+          37,
+          44
+        ],
+        [
+          "GENE",
+          87,
+          91
+        ]
+      ],
+      "model_output": "[{\"name\": \"MAPK\", \"type\": \"GENE\"}, {\"name\": \"Raf - 1\", \"type\": \"GENE\"}, {\"name\": \"Jak1\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          22,
+          26
+        ],
+        [
+          "GENE",
+          37,
+          44
+        ],
+        [
+          "GENE",
+          87,
+          91
+        ]
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "On the other hand hypokalemia , induced by diuretics , may also be accompanied by a significant depletion of total body K , bringing about more general consequences .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "We present here the complete primary structure of human gp330 , the human variant of the principal kidney autoantigen causing Heymann membranous glomerulonephritis in rats .",
+      "gold": [
+        [
+          "GENE",
+          50,
+          61
+        ]
+      ],
+      "model_output": "[{\"name\": \"human gp330\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          50,
+          61
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A series of deletion mutants was expressed transiently in two human hepatocytes , HepG2 and PLC .",
+      "gold": [],
+      "model_output": "[{\"name\": \"PLC\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          92,
+          95
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "Biol .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Copyright 2000 Academic Press .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "No patient demonstrated a decrease in bone marrow fibrosis as determined by serial procollagen ( PC III ) serum level analysis .",
+      "gold": [
+        [
+          "GENE",
+          83,
+          94
+        ],
+        [
+          "GENE",
+          97,
+          103
+        ]
+      ],
+      "model_output": "[{\"name\": \"procollagen\", \"type\": \"GENE\"}, {\"name\": \"PC III\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          83,
+          94
+        ],
+        [
+          "GENE",
+          97,
+          103
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In four calves given Haemonchus contortus larvae , the serum pepsinogen concentration rose quickly to reach a mean of 3 . 5 iu tyrosine on day 14 after infection .",
+      "gold": [
+        [
+          "GENE",
+          55,
+          71
+        ]
+      ],
+      "model_output": "[{\"name\": \"serum pepsinogen\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          55,
+          71
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The P - ITIM - compelled multi - phosphoprotein complex binds to and activates SHP - 2 , which in turn dephosphorylates SHIP and Shc and probably other substrates .",
+      "gold": [
+        [
+          "GENE",
+          4,
+          55
+        ],
+        [
+          "GENE",
+          79,
+          86
+        ],
+        [
+          "GENE",
+          120,
+          124
+        ],
+        [
+          "GENE",
+          129,
+          132
+        ]
+      ],
+      "model_output": "[{\"name\": \"P - ITIM\", \"type\": \"GENE\"}, {\"name\": \"SHP - 2\", \"type\": \"GENE\"}, {\"name\": \"SHIP\", \"type\": \"GENE\"}, {\"name\": \"Shc\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          12
+        ],
+        [
+          "GENE",
+          79,
+          86
+        ],
+        [
+          "GENE",
+          120,
+          124
+        ],
+        [
+          "GENE",
+          129,
+          132
+        ]
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Paradoxically , loop 3i from the M1Ach - muscarinic receptor also maximally inhibited GnRH agonist - stimulated cAMP accumulation and PRL release by 40 % ( both effects mediated through activation of the Gs protein ) .",
+      "gold": [
+        [
+          "GENE",
+          33,
+          60
+        ],
+        [
+          "GENE",
+          86,
+          90
+        ],
+        [
+          "GENE",
+          134,
+          137
+        ],
+        [
+          "GENE",
+          204,
+          214
+        ]
+      ],
+      "model_output": "[{\"name\": \"M1Ach - muscarinic receptor\", \"type\": \"GENE\"}, {\"name\": \"GnRH\", \"type\": \"GENE\"}, {\"name\": \"PRL\", \"type\": \"GENE\"}, {\"name\": \"Gs protein\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          33,
+          60
+        ],
+        [
+          "GENE",
+          86,
+          90
+        ],
+        [
+          "GENE",
+          134,
+          137
+        ],
+        [
+          "GENE",
+          204,
+          214
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Electrophoretic mobility - shift assays with nuclear extracts from COS - 1 cells transfected with expression vectors for SMADs 1 - 5 indicate that SMAD3 forms a complex with a migration similar to that of the endogenous TGF - beta - specific complex observed in fibroblast extracts .",
+      "gold": [
+        [
+          "GENE",
+          121,
+          132
+        ],
+        [
+          "GENE",
+          147,
+          152
+        ],
+        [
+          "GENE",
+          209,
+          249
+        ]
+      ],
+      "model_output": "[{\"name\": \"SMADs 1 - 5\", \"type\": \"GENE\"}, {\"name\": \"SMAD3\", \"type\": \"GENE\"}, {\"name\": \"TGF - beta - specific complex\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          121,
+          132
+        ],
+        [
+          "GENE",
+          147,
+          152
+        ],
+        [
+          "GENE",
+          220,
+          249
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Oligomers corresponding to the region of the mlc - 1 / 3 enhancer , which encompasses this conserved sequence , bound MEF - 2 and competed for its binding to the mck enhancer .",
+      "gold": [
+        [
+          "GENE",
+          45,
+          65
+        ],
+        [
+          "GENE",
+          118,
+          125
+        ],
+        [
+          "GENE",
+          162,
+          165
+        ]
+      ],
+      "model_output": "[{\"name\": \"mlc - 1 / 3 enhancer\", \"type\": \"GENE\"}, {\"name\": \"MEF - 2\", \"type\": \"GENE\"}, {\"name\": \"mck enhancer\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          45,
+          65
+        ],
+        [
+          "GENE",
+          118,
+          125
+        ],
+        [
+          "GENE",
+          162,
+          174
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "cDNA cloning and transcriptional properties of a novel GC box - binding protein , BTEB2 .",
+      "gold": [
+        [
+          "GENE",
+          55,
+          79
+        ],
+        [
+          "GENE",
+          82,
+          87
+        ]
+      ],
+      "model_output": "[{\"name\": \"GC box - binding protein\", \"type\": \"GENE\"}, {\"name\": \"BTEB2\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          55,
+          79
+        ],
+        [
+          "GENE",
+          82,
+          87
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "N0 disease is more favorable than N1 or N2 disease .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Elimination of brush border as well as of glomerular marker proteins was significantly lower after intravenous injection of low - osmolar CM iopamidol 370 ( 832 mOsm / kg ) than after meglumine diatrizoate 76 ( 2100 mOsm / kg ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Overall graft and patient survival after HAT were 33 . 3 % and 75 % , respectively .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Of 81 girls cured from the bacteriuria 24 recurred , 5 with a symptomatic pyelonephritis and 3 with cystitis .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Partial hepatectomy in metastatic Wilms ' tumor .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "MRS allowed the differentiation of the following metabolites in 5 patients : N - acetyl - aspartate ( NAA ) , creatine and phosphocreatine , phosphorylcholine and glycerophosphorylcholine , beta - and gamma - glutamate ( GLU ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Plasma prolactin in patients with colorectal cancer .",
+      "gold": [
+        [
+          "GENE",
+          7,
+          16
+        ]
+      ],
+      "model_output": "[{\"name\": \"Plasma prolactin\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          0,
+          16
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Studies of fetal maturity",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A comparison of the rate of recovery and time for detection of mycobacteria from clinical specimens of the newly developed Mycobacteria Growth Indicator Tube ( MGIT ) , the biphasic Septi - Chek , and the egg - based Ogawa medium was made .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "E2A - HLF - mediated cell transformation requires both the trans - activation domains of E2A and the leucine zipper dimerization domain of HLF .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          3
+        ],
+        [
+          "GENE",
+          6,
+          9
+        ],
+        [
+          "GENE",
+          89,
+          92
+        ],
+        [
+          "GENE",
+          139,
+          142
+        ]
+      ],
+      "model_output": "[{\"name\": \"E2A\", \"type\": \"GENE\"}, {\"name\": \"HLF\", \"type\": \"GENE\"}, {\"name\": \"E2A\", \"type\": \"GENE\"}, {\"name\": \"HLF\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          0,
+          3
+        ],
+        [
+          "GENE",
+          6,
+          9
+        ],
+        [
+          "GENE",
+          89,
+          92
+        ],
+        [
+          "GENE",
+          139,
+          142
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In transient transfections using luciferase reporter genes driven by 1 kb of the 5 ' flanking DNA of the three CALM genes , the promoter activity correlated with the endogenous CALM transcriptional activity , but only when the 5 ' untranslated regions were included in the constructs .",
+      "gold": [
+        [
+          "GENE",
+          33,
+          58
+        ],
+        [
+          "GENE",
+          111,
+          121
+        ],
+        [
+          "GENE",
+          166,
+          181
+        ]
+      ],
+      "model_output": "[{\"name\": \"luciferase reporter genes\", \"type\": \"GENE\"}, {\"name\": \"CALM genes\", \"type\": \"GENE\"}, {\"name\": \"CALM\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          33,
+          58
+        ],
+        [
+          "GENE",
+          111,
+          121
+        ],
+        [
+          "GENE",
+          177,
+          181
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "In this report , several health behaviors were investigated in relation to maintaining mobility during 4 years of follow - up among 6 , 981 men and women aged 65 years and older with intact mobility at baseline between 1981 and 1983 who lived in one of three communities : East Boston , Massachusetts ; Iowa and Washington counties , Iowa ; and New Haven , Connecticut .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Binding of ZAP - 70 to phospho - TAMs is notable for the high level of cooperativity between the two SH2 domains , which individually demonstrate low affinity interaction with the ligand .",
+      "gold": [
+        [
+          "GENE",
+          11,
+          19
+        ],
+        [
+          "GENE",
+          101,
+          112
+        ]
+      ],
+      "model_output": "[{\"name\": \"ZAP - 70\", \"type\": \"GENE\"}, {\"name\": \"SH2 domains\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          11,
+          19
+        ],
+        [
+          "GENE",
+          101,
+          112
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A clinical study .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Two - dimensional echocardiographic parasternal long - and short - axis views were obtained during graded bleeding by rapid withdrawal of blood from an arterial cannula , with increments of 5 % each up to 30 % of calculated blood volume .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Comparative analyses indicate that the 5 ' - peripheral domain exhibits a 75 - bp length polymorphism near sequences associated with the termination of the H - strand replication .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Thirty - five pts were transplanted for constitutional disease : Fanconi anemia ( FA ) ( 26 pts ) , Dyskeratosis congenita ( 2 pts ) , Blackfan - Diamond erythroblastopenia ( 2 pts ) , Glanzmann thrombasthenia ( 1 pt ) , osteopetrosis ( 1 pt ) and Gaucher ' s disease ( 1 pt ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "One patient exhibited a non - sense mutation ( codon 388 ) , which changed a glutamine codon ( CAG ) to a stop codon ( TAG ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Using the same approach we have shown that hFIRE binds the stimulatory proteins Sp1 and Sp3 in addition to CBF .",
+      "gold": [
+        [
+          "GENE",
+          43,
+          48
+        ],
+        [
+          "GENE",
+          80,
+          83
+        ],
+        [
+          "GENE",
+          88,
+          91
+        ],
+        [
+          "GENE",
+          107,
+          110
+        ]
+      ],
+      "model_output": "[{\"name\": \"hFIRE\", \"type\": \"GENE\"}, {\"name\": \"Sp1\", \"type\": \"GENE\"}, {\"name\": \"Sp3\", \"type\": \"GENE\"}, {\"name\": \"CBF\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          43,
+          48
+        ],
+        [
+          "GENE",
+          80,
+          83
+        ],
+        [
+          "GENE",
+          88,
+          91
+        ],
+        [
+          "GENE",
+          107,
+          110
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Cellular fractionation and Percoll gradient centrifugation combined with immunoblotting show that p67 cofractionates with nuclei and is enriched in resistant structure that is insoluble in 2 M NaCl , 25 mM lithium 3 , 5 ' - diiodosalicylate , and 1 % Triton but is soluble in 8 M urea .",
+      "gold": [
+        [
+          "GENE",
+          98,
+          101
+        ]
+      ],
+      "model_output": "[{\"name\": \"p67\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          98,
+          101
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Gene expression is in part controlled by chromatin remodeling factors and the acetylation state of nucleosomal histones .",
+      "gold": [
+        [
+          "GENE",
+          99,
+          119
+        ]
+      ],
+      "model_output": "[{\"name\": \"nucleosomal histones\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          99,
+          119
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Corticosteroid treatment before , during , or after fludarabine treatment in patients with alkylator - resistant , low - grade lymphoid malignancies who have not received PCP prophylaxis is associated with an increased risk of opportunistic pulmonary infections .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Here we demonstrate that several genes associated with NHEJ perform essential functions in the repair of endonuclease - induced DSBs in vivo .",
+      "gold": [],
+      "model_output": "[{\"name\": \"NHEJ\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          55,
+          59
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "The primary structure of cholesterol esterase displayed no significant homology with other lipases , although the putative lipid interfacial recognition site of G - X - S - X - G is present in the cholesterol esterase sequence .",
+      "gold": [
+        [
+          "GENE",
+          25,
+          45
+        ],
+        [
+          "GENE",
+          91,
+          98
+        ],
+        [
+          "GENE",
+          197,
+          226
+        ]
+      ],
+      "model_output": "[{\"name\": \"cholesterol esterase\", \"type\": \"GENE\"}, {\"name\": \"lipases\", \"type\": \"GENE\"}, {\"name\": \"G - X - S - X - G\", \"type\": \"GENE\"}, {\"name\": \"cholesterol esterase sequence\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          25,
+          45
+        ],
+        [
+          "GENE",
+          91,
+          98
+        ],
+        [
+          "GENE",
+          161,
+          178
+        ],
+        [
+          "GENE",
+          197,
+          226
+        ]
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "Subtype - and response element - dependent differences in transactivation by peroxisome proliferator - activated receptors alpha and gamma .",
+      "gold": [
+        [
+          "GENE",
+          77,
+          138
+        ]
+      ],
+      "model_output": "[{\"name\": \"peroxisome proliferator - activated receptors alpha and gamma\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          77,
+          138
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Monoclonal antibodies to the hapten phenyloxazolone were raised 7 days after immunization in mice of six strains ( BALB / c , C57BL - Igha , DBA2 , RF , A / J , and CE ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "PMA produced similar results , but the induction of the WT AP1 c - jun promoter - CAT plasmid was smaller .",
+      "gold": [
+        [
+          "GENE",
+          56,
+          62
+        ],
+        [
+          "GENE",
+          63,
+          70
+        ]
+      ],
+      "model_output": "[{\"name\": \"WT AP1\", \"type\": \"GENE\"}, {\"name\": \"c - jun\", \"type\": \"GENE\"}, {\"name\": \"CAT\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          56,
+          62
+        ],
+        [
+          "GENE",
+          63,
+          70
+        ],
+        [
+          "GENE",
+          82,
+          85
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "Although the QT duration was higher ( p = 0 . 0001 ) at night , the beat - to - beat variability of this interval was lower : in the time domain ( decreased standard deviation , p = 0 . 0005 ) , in the frequency domain ( decreased low - frequency power of the spectra , p = 0 . 004 ) , and the chaotic domain ( tighter clustering of the points in the Poincare plots ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "J .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Student health",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In both study stages . post - exposure treatment consisted of five injections of vaccine [ ( D ) ays 0 , 3 , 7 , 14 , 28 ] , together with a dose of rabies immunoglobulin ( RIG ) of equine or human origin on D0 .",
+      "gold": [
+        [
+          "GENE",
+          149,
+          170
+        ],
+        [
+          "GENE",
+          173,
+          176
+        ]
+      ],
+      "model_output": "[{\"name\": \"rabies immunoglobulin\", \"type\": \"GENE\"}, {\"name\": \"RIG\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          149,
+          170
+        ],
+        [
+          "GENE",
+          173,
+          176
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Essential fatty acid deficiency in childhood",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "We have earlier proposed that CG rich sequences resembling CpG islands , which are associated with many imprinted genes and often subject to parental - specific methylation , could act as a common imprinting element .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Electrophoretic mobility - shift assays showed a rapid induction of nuclear proteins that bound to the consensus kappa B motif .",
+      "gold": [
+        [
+          "GENE",
+          103,
+          126
+        ]
+      ],
+      "model_output": "[{\"name\": \"kappa B\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          113,
+          120
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "The thalamic SD was regularly triggered by short ( 0 . 02 - 0 . 05 s ) high - frequency ( 200 - 500 Hz ) ES of the parietal cortical surface .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "As in IncP alpha plasmids , these operons are transcribed from a bidirectional promoter region consisting of trfAp for the trfA operon and trbAp and trbBp for the trb operon .",
+      "gold": [
+        [
+          "GENE",
+          109,
+          114
+        ],
+        [
+          "GENE",
+          123,
+          134
+        ],
+        [
+          "GENE",
+          139,
+          144
+        ],
+        [
+          "GENE",
+          149,
+          154
+        ],
+        [
+          "GENE",
+          163,
+          173
+        ]
+      ],
+      "model_output": "[{\"name\": \"IncP alpha\", \"type\": \"GENE\"}, {\"name\": \"trfAp\", \"type\": \"GENE\"}, {\"name\": \"trfA operon\", \"type\": \"GENE\"}, {\"name\": \"trbAp\", \"type\": \"GENE\"}, {\"name\": \"trbBp\", \"type\": \"GENE\"}, {\"name\": \"trb operon\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          6,
+          16
+        ],
+        [
+          "GENE",
+          109,
+          114
+        ],
+        [
+          "GENE",
+          123,
+          134
+        ],
+        [
+          "GENE",
+          139,
+          144
+        ],
+        [
+          "GENE",
+          149,
+          154
+        ],
+        [
+          "GENE",
+          163,
+          173
+        ]
+      ],
+      "tp": 5,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "Comparison of the encoded ERCC3Dm protein with the homologous proteins of mouse and man shows a strong amino acid conservation ( 71 % identity ) , especially in the postulated DNA binding region and seven ' helicase ' domains .",
+      "gold": [
+        [
+          "GENE",
+          26,
+          41
+        ],
+        [
+          "GENE",
+          205,
+          225
+        ]
+      ],
+      "model_output": "[{\"name\": \"ERCC3Dm protein\", \"type\": \"GENE\"}, {\"name\": \"helicase\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          26,
+          41
+        ],
+        [
+          "GENE",
+          207,
+          215
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Genetic analysis places CWH43 upstream of the BCK2 branch of the PKC1 signalling pathway , since cwh43 mutations were synthetic lethal with pkc1 deletion , whereas the cwh43 defects could be rescued by overexpression of BCK2 and not by high - copy - number expression of genes encoding downstream proteins of the PKC1 pathway However , unlike BCK2 , whose disruption in a cln3 mutant resulted in growth arrest in G ( 1 ) , no growth defect was observed in a double cwh43 cln3 mutants .",
+      "gold": [
+        [
+          "GENE",
+          24,
+          29
+        ],
+        [
+          "GENE",
+          46,
+          50
+        ],
+        [
+          "GENE",
+          65,
+          69
+        ],
+        [
+          "GENE",
+          97,
+          102
+        ],
+        [
+          "GENE",
+          140,
+          144
+        ],
+        [
+          "GENE",
+          168,
+          173
+        ],
+        [
+          "GENE",
+          220,
+          224
+        ],
+        [
+          "GENE",
+          313,
+          317
+        ],
+        [
+          "GENE",
+          343,
+          347
+        ],
+        [
+          "GENE",
+          372,
+          383
+        ],
+        [
+          "GENE",
+          465,
+          470
+        ],
+        [
+          "GENE",
+          471,
+          483
+        ]
+      ],
+      "model_output": "[{\"name\": \"PKC1\", \"type\": \"GENE\"}, {\"name\": \"pkc1\", \"type\": \"GENE\"}, {\"name\": \"BCK2\", \"type\": \"GENE\"}, {\"name\": \"PKC1\", \"type\": \"GENE\"}, {\"name\": \"BCK2\", \"type\": \"GENE\"}, {\"name\": \"cln3 mutant\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          65,
+          69
+        ],
+        [
+          "GENE",
+          140,
+          144
+        ],
+        [
+          "GENE",
+          220,
+          224
+        ],
+        [
+          "GENE",
+          313,
+          317
+        ],
+        [
+          "GENE",
+          343,
+          347
+        ],
+        [
+          "GENE",
+          372,
+          383
+        ]
+      ],
+      "tp": 6,
+      "fp": 0,
+      "fn": 6
+    },
+    {
+      "sentence": "Expression of the E2 protein resulted in rapid repression of HPV E6 and E7 expression , followed approximately 12 h later by profound inhibition of cellular DNA synthesis .",
+      "gold": [
+        [
+          "GENE",
+          18,
+          28
+        ],
+        [
+          "GENE",
+          61,
+          67
+        ],
+        [
+          "GENE",
+          72,
+          74
+        ]
+      ],
+      "model_output": "[{\"name\": \"E2 protein\", \"type\": \"GENE\"}, {\"name\": \"HPV E6\", \"type\": \"GENE\"}, {\"name\": \"E7\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          18,
+          28
+        ],
+        [
+          "GENE",
+          61,
+          67
+        ],
+        [
+          "GENE",
+          72,
+          74
+        ]
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Peak reactive hyperemia ( mL . min - 1 . 100 mL - 1 ) was determined in the calf and forearm immediately before and after 12 weeks of training .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The hematopoietic form of PTPN6 transcript is initiated at a downstream promoter separated by 7 kb from the first .",
+      "gold": [
+        [
+          "GENE",
+          26,
+          42
+        ]
+      ],
+      "model_output": "[{\"name\": \"PTPN6 transcript\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          26,
+          42
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Reversal of biliary sphincter spasm with low dose glucagon during operative cholangiography .",
+      "gold": [
+        [
+          "GENE",
+          50,
+          58
+        ]
+      ],
+      "model_output": "[{\"name\": \"glucagon\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          50,
+          58
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In ten other endotoxin - albumin - treated pigs PGE1 infusion ( 0 . 25 micrograms X kg - 1 X min - 1 ) was begun after established pulmonary and cardiovascular dysfunction , for closer mimicking of clinical use .",
+      "gold": [
+        [
+          "GENE",
+          25,
+          32
+        ]
+      ],
+      "model_output": "[{\"name\": \"albumin\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          25,
+          32
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In particular , MF males receiving either a 5 . 0 - mg / kg CDP dose or a 3 . 0 - mg / kg RO dose explored the object more often than MM males . ( ABSTRACT TRUNCATED AT 250 WORDS )",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A single HD session using cellulose triacetate or polysulfone membrane significantly increased water content both at forearm and lower leg ( p < 0 . 05 ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In the yeast two - hybrid assays , PNRC interacted with the orphan receptors SF1 and ERRalpha1 in a ligand - independent manner .",
+      "gold": [
+        [
+          "GENE",
+          35,
+          39
+        ],
+        [
+          "GENE",
+          77,
+          80
+        ],
+        [
+          "GENE",
+          85,
+          94
+        ]
+      ],
+      "model_output": "[{\"name\": \"PNRC\", \"type\": \"GENE\"}, {\"name\": \"SF1\", \"type\": \"GENE\"}, {\"name\": \"ERRalpha1\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          35,
+          39
+        ],
+        [
+          "GENE",
+          77,
+          80
+        ],
+        [
+          "GENE",
+          85,
+          94
+        ]
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Further , we will review our evaluation of the survival rate and prognostic factors for 9 , 262 patients from 1981 to 1996 .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Kaposi ' s eruptive disease .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The results were subjected to analysis of 23 autopsies carried out in children dying of intoxication with Amanita phalloides .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Microscopic examination of these colonies showed a high percentage of histiocytes identical to those seen in the patient ' s bone marrow .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Diffusion epidemic models with incubation and crisscross dynamics .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Additional genetic analyses described herein suggest that Skb1 is a component of the morphology control branch of the Ras signaling cascade in S . pombe and that it positively modulates Shk1 function .",
+      "gold": [
+        [
+          "GENE",
+          58,
+          62
+        ],
+        [
+          "GENE",
+          118,
+          121
+        ],
+        [
+          "GENE",
+          186,
+          190
+        ]
+      ],
+      "model_output": "[{\"name\": \"Skb1\", \"type\": \"GENE\"}, {\"name\": \"Ras\", \"type\": \"GENE\"}, {\"name\": \"Shk1\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          58,
+          62
+        ],
+        [
+          "GENE",
+          118,
+          121
+        ],
+        [
+          "GENE",
+          186,
+          190
+        ]
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Transient transfection assays indicated that the ( - 4551 ) UCP1 - CAT construct , containing the 5 ' - regulatory region of the rat ucp - 1 gene , was activated by PPARalpha co - transfection in a dose - dependent manner and this activation was potentiated by Wy 14 , 643 and retinoid X receptor alpha .",
+      "gold": [
+        [
+          "GENE",
+          60,
+          64
+        ],
+        [
+          "GENE",
+          67,
+          70
+        ],
+        [
+          "GENE",
+          129,
+          145
+        ],
+        [
+          "GENE",
+          165,
+          174
+        ],
+        [
+          "GENE",
+          277,
+          302
+        ]
+      ],
+      "model_output": "[{\"name\": \"( - 4551 ) UCP1 - CAT\", \"type\": \"GENE\"}, {\"name\": \"rat ucp - 1 gene\", \"type\": \"GENE\"}, {\"name\": \"PPARalpha\", \"type\": \"GENE\"}, {\"name\": \"retinoid X receptor alpha\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          49,
+          70
+        ],
+        [
+          "GENE",
+          129,
+          145
+        ],
+        [
+          "GENE",
+          165,
+          174
+        ],
+        [
+          "GENE",
+          277,
+          302
+        ]
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 2
+    },
+    {
+      "sentence": "CRKL , an SH2 - SH3 - SH3 adapter protein , is one of the major tyrosine phosphoproteins detected in primary leukemic neutrophils from patients with CML .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          4
+        ],
+        [
+          "GENE",
+          10,
+          13
+        ],
+        [
+          "GENE",
+          16,
+          19
+        ],
+        [
+          "GENE",
+          22,
+          25
+        ],
+        [
+          "GENE",
+          64,
+          88
+        ]
+      ],
+      "model_output": "[{\"name\": \"CRKL\", \"type\": \"GENE\"}, {\"name\": \"SH2\", \"type\": \"GENE\"}, {\"name\": \"SH3\", \"type\": \"GENE\"}, {\"name\": \"SH3\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          0,
+          4
+        ],
+        [
+          "GENE",
+          10,
+          13
+        ],
+        [
+          "GENE",
+          16,
+          19
+        ],
+        [
+          "GENE",
+          22,
+          25
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "sentence": "Idealized versus realized overall treatment times .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Serum C3 was measured in 1 , 282 school children with abnormal urinary findings between 1980 and 1997 .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          8
+        ]
+      ],
+      "model_output": "[{\"name\": \"C3\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          6,
+          8
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Tc - 99m HMPAO brain SPECT compared to CT and EEG after seizures in childhood .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The adenovirus E1B 19 , 000 - molecular - weight ( 19K ) protein is a potent inhibitor of apoptosis and cooperates with E1A to transform primary rodent cells .",
+      "gold": [
+        [
+          "GENE",
+          4,
+          64
+        ],
+        [
+          "GENE",
+          120,
+          123
+        ]
+      ],
+      "model_output": "[{\"name\": \"adenovirus E1B 19 , 000 - molecular - weight ( 19K ) protein\", \"type\": \"GENE\"}, {\"name\": \"E1A\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          64
+        ],
+        [
+          "GENE",
+          120,
+          123
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Subclones of R15 which reverted to kappa light chain production contained genomic deletions of R15ns and / or the surrounding intron .",
+      "gold": [
+        [
+          "GENE",
+          35,
+          52
+        ]
+      ],
+      "model_output": "[{\"name\": \"kappa light chain\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          35,
+          52
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Previous data suggested a subtle increase in serum P at the time of hCG injection without LH surge reduces the PR of women having oocyte retrievals for IVF ; this study compared PRs of recipients in a shared oocyte program according to the donors ' pre - hCG P level .",
+      "gold": [
+        [
+          "GENE",
+          68,
+          71
+        ],
+        [
+          "GENE",
+          90,
+          92
+        ],
+        [
+          "GENE",
+          249,
+          258
+        ]
+      ],
+      "model_output": "[{\"name\": \"hCG\", \"type\": \"GENE\"}, {\"name\": \"LH\", \"type\": \"GENE\"}, {\"name\": \"PR\", \"type\": \"GENE\"}, {\"name\": \"pre - hCG P\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          68,
+          71
+        ],
+        [
+          "GENE",
+          90,
+          92
+        ],
+        [
+          "GENE",
+          111,
+          113
+        ],
+        [
+          "GENE",
+          249,
+          260
+        ]
+      ],
+      "tp": 2,
+      "fp": 2,
+      "fn": 1
+    },
+    {
+      "sentence": "Scleraxis overexpression enhanced expression of the aggrecan gene , which is not normally expressed at high levels in these osteoblastic cells .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          9
+        ],
+        [
+          "GENE",
+          52,
+          65
+        ]
+      ],
+      "model_output": "[{\"name\": \"aggrecan gene\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          52,
+          65
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "sentence": "Region - specific enhancers near two mammalian homeo box genes define adjacent rostrocaudal domains in the central nervous system .",
+      "gold": [
+        [
+          "GENE",
+          37,
+          62
+        ]
+      ],
+      "model_output": "[{\"name\": \"mammalian homeo box genes\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          37,
+          62
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Cells were cotransfected with this plasmid , and the appropriate responder plasmids and clonies were selected on the basis of their resistance to Geneticin ( via the neomycin aminoglycoside phosphotransferase gene ) .",
+      "gold": [
+        [
+          "GENE",
+          166,
+          213
+        ]
+      ],
+      "model_output": "[{\"name\": \"neomycin aminoglycoside phosphotransferase gene\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          166,
+          213
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "To clone cDNAs for the beta subunit of rabbit eIF - 2B , amino acid sequence data was first obtained and used to design redundant oligonucleotide primers for use in PCR .",
+      "gold": [
+        [
+          "GENE",
+          39,
+          54
+        ]
+      ],
+      "model_output": "[{\"name\": \"beta subunit of rabbit eIF - 2B\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          23,
+          54
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Deletion analysis of the 3 . 5kb DNA fragment revealed that the region between - 125 to + 1 , containing a single Sp1 binding site , is essential for transcription of the embigin gene .",
+      "gold": [
+        [
+          "GENE",
+          114,
+          130
+        ],
+        [
+          "GENE",
+          171,
+          183
+        ]
+      ],
+      "model_output": "[{\"name\": \"Sp1 binding site\", \"type\": \"GENE\"}, {\"name\": \"embigin gene\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          114,
+          130
+        ],
+        [
+          "GENE",
+          171,
+          183
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A 29 . 425 kb segment on the left arm of yeast chromosome XV contains more than twice as many unknown as known open reading frames .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "By applying a sufficiently strong crusher gradient in the EPI pulse sequence , the temporal variation induced by SSFP disturbance can be suppressed due to diffusion .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The cdc42W97R temperature - sensitive allele in S . cerevisiae displayed the same cell - division - cycle arrest phenotype ( large , round unbudded cells ) as the cdc42 - 1ts mutant .",
+      "gold": [
+        [
+          "GENE",
+          4,
+          44
+        ],
+        [
+          "GENE",
+          163,
+          181
+        ]
+      ],
+      "model_output": "[{\"name\": \"cdc42W97R\", \"type\": \"GENE\"}, {\"name\": \"cdc42 - 1ts mutant\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          13
+        ],
+        [
+          "GENE",
+          163,
+          181
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Wolf - Hirschhorn syndrome ( WHS ) is a malformation syndrome associated with a hemizygous deletion of the distal short arm of chromosome 4 ( 4p16 . 3 ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "To address this question with respect to skeletal muscle , we have examined the effects of the Providence mutation in cultured muscle cells , after adoptive gene transfer to adult mice , and in two infants homozygous for spectrin Providence .",
+      "gold": [
+        [
+          "GENE",
+          221,
+          240
+        ]
+      ],
+      "model_output": "[{\"name\": \"spectrin\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          221,
+          229
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Adenovirus - mediated gene transfer of MMAC1 / PTEN to glioblastoma cells inhibits S phase entry by the recruitment of p27Kip1 into cyclin E / CDK2 complexes .",
+      "gold": [
+        [
+          "GENE",
+          39,
+          44
+        ],
+        [
+          "GENE",
+          47,
+          51
+        ],
+        [
+          "GENE",
+          119,
+          126
+        ],
+        [
+          "GENE",
+          132,
+          140
+        ],
+        [
+          "GENE",
+          143,
+          147
+        ]
+      ],
+      "model_output": "[{\"name\": \"MMAC1\", \"type\": \"GENE\"}, {\"name\": \"PTEN\", \"type\": \"GENE\"}, {\"name\": \"p27Kip1\", \"type\": \"GENE\"}, {\"name\": \"cyclin E\", \"type\": \"GENE\"}, {\"name\": \"CDK2\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          39,
+          44
+        ],
+        [
+          "GENE",
+          47,
+          51
+        ],
+        [
+          "GENE",
+          119,
+          126
+        ],
+        [
+          "GENE",
+          132,
+          140
+        ],
+        [
+          "GENE",
+          143,
+          147
+        ]
+      ],
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Increasing insulin sensitivity in type I diabetic patients should alert clinicians to the possibility of glucocorticoid deficiency .",
+      "gold": [
+        [
+          "GENE",
+          11,
+          18
+        ]
+      ],
+      "model_output": "[{\"name\": \"insulin\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          11,
+          18
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Experiment B : Clinical , biochemical , and histological variables were measured over a 12 - day period after the zymosan had been given .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Lesions of this kind resemble those in vitamin A - deficient chickens and are the first to be induced by excess vitamin E .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Immunoblotting using a phosphospecific anti - Src ( 416Y ) antibody showed a ceramide - induced increase in pp60 ( src ) tyrosine phosphorylation .",
+      "gold": [
+        [
+          "GENE",
+          23,
+          67
+        ],
+        [
+          "GENE",
+          108,
+          112
+        ],
+        [
+          "GENE",
+          115,
+          118
+        ]
+      ],
+      "model_output": "[{\"name\": \"anti - Src\", \"type\": \"GENE\"}, {\"name\": \"pp60\", \"type\": \"GENE\"}, {\"name\": \"src\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          39,
+          49
+        ],
+        [
+          "GENE",
+          108,
+          112
+        ],
+        [
+          "GENE",
+          115,
+          118
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Spinophilin , a novel protein phosphatase 1 binding protein localized to dendritic spines .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          11
+        ],
+        [
+          "GENE",
+          22,
+          59
+        ]
+      ],
+      "model_output": "[{\"name\": \"Spinophilin\", \"type\": \"GENE\"}, {\"name\": \"protein phosphatase 1 binding protein\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          0,
+          11
+        ],
+        [
+          "GENE",
+          22,
+          59
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The Htf9 - a gene encodes the RanBP1 protein , a major partner of the Ran GTPase .",
+      "gold": [
+        [
+          "GENE",
+          4,
+          17
+        ],
+        [
+          "GENE",
+          30,
+          44
+        ],
+        [
+          "GENE",
+          70,
+          80
+        ]
+      ],
+      "model_output": "[{\"name\": \"Htf9 - a gene\", \"type\": \"GENE\"}, {\"name\": \"RanBP1 protein\", \"type\": \"GENE\"}, {\"name\": \"Ran GTPase\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          17
+        ],
+        [
+          "GENE",
+          30,
+          44
+        ],
+        [
+          "GENE",
+          70,
+          80
+        ]
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Membrane extraction has been interfaced with gas chromatography and mass spectroscopy for the analysis of volatile organics in water .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "We have produced the Ure2 protein to high yield in Escherichia coli from a synthetic gene .",
+      "gold": [
+        [
+          "GENE",
+          21,
+          33
+        ]
+      ],
+      "model_output": "[{\"name\": \"Ure2 protein\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          21,
+          33
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Triethylene glycol .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The SM - specific selection of exon 2 results from the inhibition of exon 3 .",
+      "gold": [],
+      "model_output": "[{\"name\": \"SM\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          6
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "Ultimobranchial body and parathyroid glands of the freshwater snake Natrix piscator in response to vitamin D3 administration .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In contrast to the p16 - mediated G1 block , G1 arrest mediated by the cdk inhibitors p21Cip1 or p27Kip1 cannot be bypassed either by inactivation of pRb or overexpression of E2F family members .",
+      "gold": [
+        [
+          "GENE",
+          19,
+          22
+        ],
+        [
+          "GENE",
+          71,
+          74
+        ],
+        [
+          "GENE",
+          86,
+          93
+        ],
+        [
+          "GENE",
+          97,
+          104
+        ],
+        [
+          "GENE",
+          150,
+          153
+        ],
+        [
+          "GENE",
+          175,
+          193
+        ]
+      ],
+      "model_output": "[{\"name\": \"p16\", \"type\": \"GENE\"}, {\"name\": \"G1\", \"type\": \"GENE\"}, {\"name\": \"cdk\", \"type\": \"GENE\"}, {\"name\": \"p21Cip1\", \"type\": \"GENE\"}, {\"name\": \"p27Kip1\", \"type\": \"GENE\"}, {\"name\": \"pRb\", \"type\": \"GENE\"}, {\"name\": \"E2F family members\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          19,
+          22
+        ],
+        [
+          "GENE",
+          34,
+          36
+        ],
+        [
+          "GENE",
+          71,
+          74
+        ],
+        [
+          "GENE",
+          86,
+          93
+        ],
+        [
+          "GENE",
+          97,
+          104
+        ],
+        [
+          "GENE",
+          150,
+          153
+        ],
+        [
+          "GENE",
+          175,
+          193
+        ]
+      ],
+      "tp": 6,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "More than 80 % appropriate lever responding was established after 27 , 38 and 44 daily training sessions with DN - 2327 , diazepam and PTZ , respectively , as the training drug .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "In the present study , we have investigated the effects of SDZ ENA 713 on spatial learning deficits in aged rats .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A retrospective analysis of data accumulated over a 21 - month period , from December 1989 to September 1991 , regarding investigational use of a 308 nanometer Xenon Chloride Excimer Laser Coronary Angioplasty ( ELCA ) system ( Advanced Interventional Systems , Inc . , Irvine , CA ) was performed .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Upon increasing the Marangoni number beyond this threshold , the initially stationary flow becomes quickly time dependent .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Investigation on the asymmetrical induced yields in 90Sr - 90Y - beta - irradiated D - and L - alanines .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "One of the major transcripts encodes MEQ , a 339 - amino - acid bZIP protein which is homologous to the Jun / Fos family of transcription factors .",
+      "gold": [
+        [
+          "GENE",
+          37,
+          40
+        ],
+        [
+          "GENE",
+          64,
+          76
+        ],
+        [
+          "GENE",
+          104,
+          107
+        ],
+        [
+          "GENE",
+          110,
+          113
+        ]
+      ],
+      "model_output": "[{\"name\": \"MEQ\", \"type\": \"GENE\"}, {\"name\": \"bZIP protein\", \"type\": \"GENE\"}, {\"name\": \"Jun\", \"type\": \"GENE\"}, {\"name\": \"Fos\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          37,
+          40
+        ],
+        [
+          "GENE",
+          64,
+          76
+        ],
+        [
+          "GENE",
+          104,
+          107
+        ],
+        [
+          "GENE",
+          110,
+          113
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Given a rapid induction of Egr - 1 on stimulation with growth factors or injury , these findings may represent at least one of the molecular mechanisms underlying phenotypic modulation of smooth muscles after vascular injury .",
+      "gold": [
+        [
+          "GENE",
+          27,
+          34
+        ]
+      ],
+      "model_output": "[{\"name\": \"Egr - 1\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          27,
+          34
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "An identical polypeptide was detected by Western blot analysis of K1F virions .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The predictive value of the remotely sensed map based on NDVI data appears to be better than that from forecast indices based only on climatic data .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The concentration of vitamin B1 , B2 and B6 are found to be 9 . 96 , 9 . 92 and 3 . 01 mg , respectively in 240 mg of capsule powder of a standard company ( name has not been disclosed due to secrecy purpose ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "We have shown that the human cell MRC closely resembles the murine cell MRC , in both its protein composition and its fractionation and chromatographic profile .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Red blood cell binding of 99mTc - EC and 131I - OIH was 6 . 1 % and 20 % , respectively .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Identification of a 68 - kilodalton nuclear ATP - binding phosphoprotein encoded by bovine papillomavirus type 1 .",
+      "gold": [
+        [
+          "GENE",
+          20,
+          72
+        ]
+      ],
+      "model_output": "[{\"name\": \"68 - kilodalton nuclear ATP - binding phosphoprotein\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          20,
+          72
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "To identify the GRK6 homologue on chromsome 13 , several sets of closely - spaced primers were designed based on the GRK6 cDNA sequence and then used to amplify human genomic DNA by PCR .",
+      "gold": [
+        [
+          "GENE",
+          16,
+          30
+        ],
+        [
+          "GENE",
+          117,
+          135
+        ]
+      ],
+      "model_output": "[{\"name\": \"GRK6 homologue\", \"type\": \"GENE\"}, {\"name\": \"GRK6 cDNA sequence\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          16,
+          30
+        ],
+        [
+          "GENE",
+          117,
+          135
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "During the burst period ( approximately 5 - 10 min ) , local blood H2O2 concentrations and xanthine oxidase activities were highly correlated ( r = 0 . 999 ) .",
+      "gold": [
+        [
+          "GENE",
+          91,
+          107
+        ]
+      ],
+      "model_output": "[{\"name\": \"xanthine oxidase\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          91,
+          107
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "This mutant also functions in vivo as a trans - acting dominant negative regulator : the transcriptional inducibility of the HIV long terminal repeat ( which contains two potential NF - kappa B binding sites ) by phorbol ester ( PMA ) is inhibited when it is co - transfected into CD4 + T cells with the delta SP mutant .",
+      "gold": [
+        [
+          "GENE",
+          125,
+          149
+        ],
+        [
+          "GENE",
+          181,
+          207
+        ],
+        [
+          "GENE",
+          281,
+          286
+        ]
+      ],
+      "model_output": "[{\"name\": \"NF - kappa B\", \"type\": \"GENE\"}, {\"name\": \"CD4 +\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          181,
+          193
+        ],
+        [
+          "GENE",
+          281,
+          286
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 2
+    },
+    {
+      "sentence": "We demonstrate that the WRM - 1 protein binds to LIT - 1 in vivo and that WRM - 1 can activate the LIT - 1 protein kinase when coexpressed in vertebrate tissue culture cells .",
+      "gold": [
+        [
+          "GENE",
+          24,
+          39
+        ],
+        [
+          "GENE",
+          49,
+          56
+        ],
+        [
+          "GENE",
+          74,
+          81
+        ],
+        [
+          "GENE",
+          99,
+          121
+        ]
+      ],
+      "model_output": "[{\"name\": \"WRM - 1 protein\", \"type\": \"GENE\"}, {\"name\": \"LIT - 1\", \"type\": \"GENE\"}, {\"name\": \"WRM - 1\", \"type\": \"GENE\"}, {\"name\": \"LIT - 1 protein kinase\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          24,
+          39
+        ],
+        [
+          "GENE",
+          49,
+          56
+        ],
+        [
+          "GENE",
+          74,
+          81
+        ],
+        [
+          "GENE",
+          99,
+          121
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "To assess the safety of the angiotensin converting enzyme inhibitor enalapril a multicenter , open , randomized , prazosin - controlled trial was designed comparing the incidence and severity of symptomatic hypotension on the first day of treatment .",
+      "gold": [
+        [
+          "GENE",
+          28,
+          57
+        ]
+      ],
+      "model_output": "[{\"name\": \"angiotensin converting enzyme\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          28,
+          57
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Mutating bases - 142 to - 151 abolishes formation of complex VII and partially inhibits complex IV , suggesting that the proteins forming these complexes bind neighboring segments of DNA .",
+      "gold": [],
+      "model_output": "[{\"name\": \"complex VII\", \"type\": \"GENE\"}, {\"name\": \"complex IV\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          53,
+          64
+        ],
+        [
+          "GENE",
+          88,
+          98
+        ]
+      ],
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "sentence": "In this study , we report the cloning and sequencing of several overlapping cDNAs encoding approximately 4 . 1 kb of the human homologue of Wnt - 5A .",
+      "gold": [
+        [
+          "GENE",
+          121,
+          148
+        ]
+      ],
+      "model_output": "[{\"name\": \"Wnt - 5A\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          140,
+          148
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "We provided evidence that CaM kinase II played a role in regulating neurite outgrowth and growth cone motility in these cells , and that the autophosphorylation is essential for the kinase to sufficiently exert its cellular function in vivo [ Y .",
+      "gold": [
+        [
+          "GENE",
+          26,
+          39
+        ]
+      ],
+      "model_output": "[{\"name\": \"CaM kinase II\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          26,
+          39
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "We propose that GCD7 and GCD2 play important roles in the regulatory interaction between eIF - 2 and eIF - 2B and that the suppressor mutations we isolated in these genes decrease the susceptibility of eIF - 2B to the inhibitory effects of phosphorylated eIF - 2 without impairing the essential catalytic function of eIF - 2B in translation initiation .",
+      "gold": [
+        [
+          "GENE",
+          16,
+          20
+        ],
+        [
+          "GENE",
+          25,
+          29
+        ],
+        [
+          "GENE",
+          89,
+          96
+        ],
+        [
+          "GENE",
+          101,
+          109
+        ],
+        [
+          "GENE",
+          202,
+          210
+        ],
+        [
+          "GENE",
+          255,
+          262
+        ],
+        [
+          "GENE",
+          317,
+          325
+        ]
+      ],
+      "model_output": "[{\"name\": \"GCD7\", \"type\": \"GENE\"}, {\"name\": \"GCD2\", \"type\": \"GENE\"}, {\"name\": \"eIF - 2\", \"type\": \"GENE\"}, {\"name\": \"eIF - 2B\", \"type\": \"GENE\"}, {\"name\": \"eIF - 2B\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          16,
+          20
+        ],
+        [
+          "GENE",
+          25,
+          29
+        ],
+        [
+          "GENE",
+          89,
+          96
+        ],
+        [
+          "GENE",
+          101,
+          109
+        ],
+        [
+          "GENE",
+          202,
+          210
+        ]
+      ],
+      "tp": 5,
+      "fp": 0,
+      "fn": 2
+    },
+    {
+      "sentence": "Furthermore , we demonstrate that in myeloid and B cell extracts , PU . 1 forms a novel , specific , more slowly migrating complex ( PU - SF ) when binding the GM - CSF receptor alpha promoter PU . 1 site .",
+      "gold": [
+        [
+          "GENE",
+          67,
+          73
+        ],
+        [
+          "GENE",
+          133,
+          140
+        ],
+        [
+          "GENE",
+          160,
+          183
+        ],
+        [
+          "GENE",
+          193,
+          199
+        ]
+      ],
+      "model_output": "[{\"name\": \"PU . 1\", \"type\": \"GENE\"}, {\"name\": \"GM - CSF receptor alpha promoter PU . 1 site\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          67,
+          73
+        ],
+        [
+          "GENE",
+          160,
+          204
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 3
+    },
+    {
+      "sentence": "The antiserum used for immunoblotting specifically supershifts uteroglobin promoter - protein complexes in gel shift experiments .",
+      "gold": [
+        [
+          "GENE",
+          63,
+          103
+        ]
+      ],
+      "model_output": "[{\"name\": \"uteroglobin promoter\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          63,
+          83
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Plasma LH and progesterone levels after single or multiple injections of synthetic LH - RH in anoestrous ewes and comparison with levels during the oestrous cycle .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          9
+        ],
+        [
+          "GENE",
+          83,
+          85
+        ],
+        [
+          "GENE",
+          88,
+          90
+        ]
+      ],
+      "model_output": "[{\"name\": \"LH\", \"type\": \"GENE\"}, {\"name\": \"progesterone\", \"type\": \"GENE\"}, {\"name\": \"LH\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          7,
+          9
+        ],
+        [
+          "GENE",
+          14,
+          26
+        ],
+        [
+          "GENE",
+          83,
+          85
+        ]
+      ],
+      "tp": 1,
+      "fp": 2,
+      "fn": 2
+    },
+    {
+      "sentence": "Soluble recombinant RI and soluble recombinant C alpha can associate in vitro and be activated by cyclic AMP .",
+      "gold": [
+        [
+          "GENE",
+          20,
+          22
+        ],
+        [
+          "GENE",
+          47,
+          54
+        ]
+      ],
+      "model_output": "[{\"name\": \"recombinant C alpha\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          35,
+          54
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 2
+    },
+    {
+      "sentence": "We have isolated and structurally characterized genomic DNA and cDNA sequences encoding ribulose - 1 , 5 - bisphosphate carboxylase / oxygenase ( Rbu - P2 carboxylase ) activase from barley ( Hordeum vulgare L . ) .",
+      "gold": [
+        [
+          "GENE",
+          88,
+          177
+        ]
+      ],
+      "model_output": "[{\"name\": \"ribulose - 1 , 5 - bisphosphate carboxylase\", \"type\": \"GENE\"}, {\"name\": \"oxygenase\", \"type\": \"GENE\"}, {\"name\": \"Rbu - P2 carboxylase\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          88,
+          131
+        ],
+        [
+          "GENE",
+          134,
+          143
+        ],
+        [
+          "GENE",
+          146,
+          166
+        ]
+      ],
+      "tp": 0,
+      "fp": 3,
+      "fn": 1
+    },
+    {
+      "sentence": "Cytokine inducibility of VCAM1 in endothelial cells utilizes the interaction of heterodimeric p50 / p65 proteins with IRF - 1 .",
+      "gold": [
+        [
+          "GENE",
+          25,
+          30
+        ],
+        [
+          "GENE",
+          94,
+          97
+        ],
+        [
+          "GENE",
+          100,
+          103
+        ],
+        [
+          "GENE",
+          118,
+          125
+        ]
+      ],
+      "model_output": "[{\"name\": \"VCAM1\", \"type\": \"GENE\"}, {\"name\": \"p50\", \"type\": \"GENE\"}, {\"name\": \"p65 proteins\", \"type\": \"GENE\"}, {\"name\": \"IRF - 1\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          25,
+          30
+        ],
+        [
+          "GENE",
+          94,
+          97
+        ],
+        [
+          "GENE",
+          100,
+          112
+        ],
+        [
+          "GENE",
+          118,
+          125
+        ]
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "The cases with terminal forces of left ventricular activation in the same direction as the delta wave , superiorly and to the left at - 60 degrees or inferiorly and to the right at + 120 degrees , forming a single deflection of over 0 , 12 seconds ' duration , are the result of delayed activation of the anterior or posterior fascicle of the left bundle after a long delay .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "From a chromosomal cosmid library of Streptomyces argillaceus , a Mtm producer , a clone ( cosAR7 ) was isolated by homology to the actI / III region of S . coelicolor and the strDEM genes of S . griseus .",
+      "gold": [
+        [
+          "GENE",
+          66,
+          69
+        ],
+        [
+          "GENE",
+          132,
+          149
+        ],
+        [
+          "GENE",
+          176,
+          188
+        ]
+      ],
+      "model_output": "[{\"name\": \"Mtm\", \"type\": \"GENE\"}, {\"name\": \"actI / III region\", \"type\": \"GENE\"}, {\"name\": \"S . coelicolor\", \"type\": \"GENE\"}, {\"name\": \"strDEM genes\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          66,
+          69
+        ],
+        [
+          "GENE",
+          132,
+          149
+        ],
+        [
+          "GENE",
+          153,
+          167
+        ],
+        [
+          "GENE",
+          176,
+          188
+        ]
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "A 31 - year - old man with primary myelofibrosis initially received low dose Ara C .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The factors defective in groups A ( CIITA ) , C ( RFX5 ) and D ( RFXAP ) have been identified .",
+      "gold": [
+        [
+          "GENE",
+          36,
+          41
+        ],
+        [
+          "GENE",
+          50,
+          54
+        ],
+        [
+          "GENE",
+          65,
+          70
+        ]
+      ],
+      "model_output": "[{\"name\": \"CIITA\", \"type\": \"GENE\"}, {\"name\": \"C\", \"type\": \"GENE\"}, {\"name\": \"RFX5\", \"type\": \"GENE\"}, {\"name\": \"D\", \"type\": \"GENE\"}, {\"name\": \"RFXAP\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          36,
+          41
+        ],
+        [
+          "GENE",
+          46,
+          47
+        ],
+        [
+          "GENE",
+          50,
+          54
+        ],
+        [
+          "GENE",
+          61,
+          62
+        ],
+        [
+          "GENE",
+          65,
+          70
+        ]
+      ],
+      "tp": 3,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "sentence": "Manifestation of superfluidity in an evolving bose - einstein condensed Gas We study the generation of excitations due to an \" impurity \" ( static perturbation ) placed into an oscillating Bose - Einstein condensed gas in the time - dependent trapping field .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "By sequencing of exonuclease III deletion clones an open reading frame of 405 nucleotides was found coding for a protein of 135 amino acids with a molecular mass of 15 kDa .",
+      "gold": [
+        [
+          "GENE",
+          17,
+          32
+        ]
+      ],
+      "model_output": "[{\"name\": \"exonuclease III\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          17,
+          32
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The c - raf - 1 proto - oncogene is the cellular homologue of v - raf , the oncogene of the acutely transforming retrovirus 3611 - MSV .",
+      "gold": [
+        [
+          "GENE",
+          4,
+          32
+        ],
+        [
+          "GENE",
+          40,
+          69
+        ]
+      ],
+      "model_output": "[{\"name\": \"c - raf - 1\", \"type\": \"GENE\"}, {\"name\": \"v - raf\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          15
+        ],
+        [
+          "GENE",
+          62,
+          69
+        ]
+      ],
+      "tp": 0,
+      "fp": 2,
+      "fn": 2
+    },
+    {
+      "sentence": "We report the genomic organization of the mouse orphan receptor related to tyrosine kinases ( Ryk ) , a structurally unclassified member of the growth factor receptor family .",
+      "gold": [
+        [
+          "GENE",
+          48,
+          91
+        ],
+        [
+          "GENE",
+          94,
+          97
+        ],
+        [
+          "GENE",
+          144,
+          166
+        ]
+      ],
+      "model_output": "[{\"name\": \"mouse orphan receptor\", \"type\": \"GENE\"}, {\"name\": \"tyrosine kinases\", \"type\": \"GENE\"}, {\"name\": \"Ryk\", \"type\": \"GENE\"}, {\"name\": \"growth factor receptor family\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          42,
+          63
+        ],
+        [
+          "GENE",
+          75,
+          91
+        ],
+        [
+          "GENE",
+          94,
+          97
+        ],
+        [
+          "GENE",
+          144,
+          173
+        ]
+      ],
+      "tp": 1,
+      "fp": 3,
+      "fn": 2
+    },
+    {
+      "sentence": "Electrophoretic mobility - shift assays between viral RNA and BMV CP peptides with either proline or alanine substitutions revealed that the interaction is nonspecific .",
+      "gold": [
+        [
+          "GENE",
+          62,
+          77
+        ]
+      ],
+      "model_output": "[{\"name\": \"BMV CP peptides\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          62,
+          77
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Furthermore , we detect hCoch - 5B2 on three overlapping YACs , two of which also contain one of the markers linked to DFNA9 . mCoch - 5B2 was genetically mapped in the mouse to chromosome 12 , in a region of homologous synteny with human 14q11 . 2 - q13 , which contains the asp1 ( audiogenic seizure prone ) locus in the mouse .",
+      "gold": [
+        [
+          "GENE",
+          24,
+          35
+        ],
+        [
+          "GENE",
+          119,
+          124
+        ],
+        [
+          "GENE",
+          127,
+          138
+        ],
+        [
+          "GENE",
+          276,
+          280
+        ],
+        [
+          "GENE",
+          283,
+          307
+        ]
+      ],
+      "model_output": "[{\"name\": \"hCoch - 5B2\", \"type\": \"GENE\"}, {\"name\": \"DFNA9\", \"type\": \"GENE\"}, {\"name\": \"mCoch - 5B2\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          24,
+          35
+        ],
+        [
+          "GENE",
+          119,
+          124
+        ],
+        [
+          "GENE",
+          127,
+          138
+        ]
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+    },
+    {
+      "sentence": "Reasons are given for suggesting that tiapamil warrants further clinical evaluation , after which it may join the more established calcium antagonists as a valuable therapeutic agent .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Histopathologic studies displaying spongiform changes in the gray matter , neuronal loss , and atrogliosis confirmed the clinical diagnosis of Creutzfeldt - Jakob disease .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Current body size ( wt / ht2 ) was significantly associated with life - time weight dissatisfaction in both sexes ( P less than 0 . 0005 ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Our results are consistent with TCOF1 mutations leading to the Treacher Collins syndrome phenotype .",
+      "gold": [
+        [
+          "GENE",
+          32,
+          47
+        ]
+      ],
+      "model_output": "[{\"name\": \"TCOF1\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          32,
+          37
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Mannich bases of vanillin oxime .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Its activity was twice that of a construct where the CAT gene was driven by the H - 2Kb 5 ' enhancer region ( H2TF1 / KBF1 site ) and comparable to that of pRSVCAT construct carrying the strong Rous sarcoma virus LTR enhancer .",
+      "gold": [
+        [
+          "GENE",
+          53,
+          61
+        ],
+        [
+          "GENE",
+          80,
+          107
+        ],
+        [
+          "GENE",
+          110,
+          115
+        ],
+        [
+          "GENE",
+          118,
+          122
+        ],
+        [
+          "GENE",
+          164,
+          225
+        ]
+      ],
+      "model_output": "[{\"name\": \"CAT gene\", \"type\": \"GENE\"}, {\"name\": \"H - 2Kb 5 ' enhancer region\", \"type\": \"GENE\"}, {\"name\": \"H2TF1\", \"type\": \"GENE\"}, {\"name\": \"KBF1 site\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          53,
+          61
+        ],
+        [
+          "GENE",
+          80,
+          107
+        ],
+        [
+          "GENE",
+          110,
+          115
+        ],
+        [
+          "GENE",
+          118,
+          127
+        ]
+      ],
+      "tp": 3,
+      "fp": 1,
+      "fn": 2
+    },
+    {
+      "sentence": "CONCLUSIONS : These findings imply that the spinal cord is not a simple command - carrying medium from the brain to the limbs , and implies that some computational activities take place at the spinal cord level .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The dipper ( RONF of BP ( or HR ) > or = 10 % 2 .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "I .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Acute spontaneous subdural haematoma .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Nonsuicidal mortality in late - life depression .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "DSS4 - 1 is a dominant suppressor of sec4 - 8 that encodes a nucleotide exchange protein that aids Sec4p function .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          8
+        ],
+        [
+          "GENE",
+          37,
+          45
+        ],
+        [
+          "GENE",
+          99,
+          104
+        ]
+      ],
+      "model_output": "[{\"name\": \"sec4 - 8\", \"type\": \"GENE\"}, {\"name\": \"Sec4p\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          37,
+          45
+        ],
+        [
+          "GENE",
+          99,
+          104
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "sentence": "A study of characteristics in adult asthmatics who are sensitized by cats and dogs allergens",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The failure suggests that these assembly competent but complementation - negative alpha mutants lack an as yet unidentified function ( s ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Ciprofloxacin levels in serum and blister fluid at the end of the dosing interval ( 8 h ) were superior or almost superior to MICs for sensitive organisms including Pseudomonas aeruginosa .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "However , both peptides 1 - 49 and 63 - 87 bound to PDE alpha / beta in a solid - phase binding assay .",
+      "gold": [
+        [
+          "GENE",
+          52,
+          68
+        ]
+      ],
+      "model_output": "[{\"name\": \"PDE alpha / beta\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          52,
+          68
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "SETTING : A private office - based fertility program .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Our results showed that direct enantiomeric separation of mephenytoin was obtained by using a chiral capillary column , the retention times for S - and R - mephenytoin were 25 . 5 and 26 . 2 min respectively , with a detection limit less than 50 ng / ml of mephenytoin .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The consensus mammalian ER stress response element ( ERSE ) conserved among grp promoters consists of a tripartite structure CCAAT ( N9 ) CCACG , with N being a strikingly GC - rich region of 9 bp .",
+      "gold": [
+        [
+          "GENE",
+          76,
+          89
+        ]
+      ],
+      "model_output": "[{\"name\": \"grp\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          76,
+          79
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Further , we find that the BMI1 protein can also interact with itself .",
+      "gold": [
+        [
+          "GENE",
+          27,
+          39
+        ]
+      ],
+      "model_output": "[{\"name\": \"BMI1 protein\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          27,
+          39
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "These data suggest that certain of the nuclear protein import functions of NTF2 and Ran / TC4 are closely linked and that NTF2 may serve to modulate a transport step involving Ran / TC4 .",
+      "gold": [
+        [
+          "GENE",
+          75,
+          79
+        ],
+        [
+          "GENE",
+          84,
+          87
+        ],
+        [
+          "GENE",
+          90,
+          93
+        ],
+        [
+          "GENE",
+          122,
+          126
+        ],
+        [
+          "GENE",
+          176,
+          179
+        ],
+        [
+          "GENE",
+          182,
+          185
+        ]
+      ],
+      "model_output": "[{\"name\": \"NTF2\", \"type\": \"GENE\"}, {\"name\": \"Ran\", \"type\": \"GENE\"}, {\"name\": \"TC4\", \"type\": \"GENE\"}, {\"name\": \"NTF2\", \"type\": \"GENE\"}, {\"name\": \"Ran\", \"type\": \"GENE\"}, {\"name\": \"TC4\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          75,
+          79
+        ],
+        [
+          "GENE",
+          84,
+          87
+        ],
+        [
+          "GENE",
+          90,
+          93
+        ],
+        [
+          "GENE",
+          122,
+          126
+        ],
+        [
+          "GENE",
+          176,
+          179
+        ],
+        [
+          "GENE",
+          182,
+          185
+        ]
+      ],
+      "tp": 6,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Our analysis indicates that a gene correction mechanism has been operating on the Hbbs chromosome to keep beta s and beta t evolving in concert , whereas on the Hbbd chromosome , beta dmin has diverged considerably from beta dmaj .",
+      "gold": [
+        [
+          "GENE",
+          82,
+          86
+        ],
+        [
+          "GENE",
+          106,
+          112
+        ],
+        [
+          "GENE",
+          117,
+          123
+        ],
+        [
+          "GENE",
+          161,
+          165
+        ],
+        [
+          "GENE",
+          179,
+          188
+        ],
+        [
+          "GENE",
+          220,
+          229
+        ]
+      ],
+      "model_output": "[{\"name\": \"Hbbs\", \"type\": \"GENE\"}, {\"name\": \"beta s\", \"type\": \"GENE\"}, {\"name\": \"beta t\", \"type\": \"GENE\"}, {\"name\": \"Hbbd\", \"type\": \"GENE\"}, {\"name\": \"beta dmin\", \"type\": \"GENE\"}, {\"name\": \"beta dmaj\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          82,
+          86
+        ],
+        [
+          "GENE",
+          106,
+          112
+        ],
+        [
+          "GENE",
+          117,
+          123
+        ],
+        [
+          "GENE",
+          161,
+          165
+        ],
+        [
+          "GENE",
+          179,
+          188
+        ],
+        [
+          "GENE",
+          220,
+          229
+        ]
+      ],
+      "tp": 6,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The prosomal RNA - binding protein p27K is a member of the alpha - type human prosomal gene family .",
+      "gold": [
+        [
+          "GENE",
+          4,
+          39
+        ],
+        [
+          "GENE",
+          59,
+          98
+        ]
+      ],
+      "model_output": "[{\"name\": \"prosomal RNA - binding protein\", \"type\": \"GENE\"}, {\"name\": \"p27K\", \"type\": \"GENE\"}, {\"name\": \"alpha - type human prosomal gene family\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          4,
+          34
+        ],
+        [
+          "GENE",
+          35,
+          39
+        ],
+        [
+          "GENE",
+          59,
+          98
+        ]
+      ],
+      "tp": 1,
+      "fp": 2,
+      "fn": 1
+    },
+    {
+      "sentence": "Because controlled - release niacin seems to be more potent than crystalline niacin , product substitution without dose adjustment should be avoided .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Expression of the gene encoding transcription factor cyclic adenosine 3 ' , 5 ' - monophosphate ( cAMP ) response element - binding protein ( CREB ) : regulation by follicle - stimulating hormone - induced cAMP signaling in primary rat Sertoli cells .",
+      "gold": [
+        [
+          "GENE",
+          32,
+          139
+        ],
+        [
+          "GENE",
+          142,
+          146
+        ],
+        [
+          "GENE",
+          165,
+          195
+        ]
+      ],
+      "model_output": "[{\"name\": \"gene encoding transcription factor cyclic adenosine 3 ' , 5 ' - monophosphate ( cAMP ) response element - binding protein\", \"type\": \"GENE\"}, {\"name\": \"CREB\", \"type\": \"GENE\"}, {\"name\": \"follicle - stimulating hormone\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          18,
+          139
+        ],
+        [
+          "GENE",
+          142,
+          146
+        ],
+        [
+          "GENE",
+          165,
+          195
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Comparison of the therapeutic effectiveness of membrane and centrifugation plasmapheresis",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Number of warm - units with higher rates of firing and greater thermal coefficients , comparable to those of warm - units in the adult , gradually increased with growth .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "To investigate the effect of hyperthyroidism on the pattern and time course of O2 uptake ( VO2 ) following the transition from rest to exercise , six patients and six healthy subjects performed cycle exercise at an average work rate ( WR ) of 18 and 20 W respectively .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "88 , 3739 - 3743 ) ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "CHIEF OUTCOME MEASURES : Endoluminal release of prostacyclin ( 6 - Keto - PGF1 alpha ) and thromboxane B2 ( TxB2 ) , patency , EC coverage and cell identity .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Elevated systolic blood pressure and high postglucose serum insulin levels showed an independent , significant association with left ventricular mass in female diabetic subjects .",
+      "gold": [
+        [
+          "GENE",
+          54,
+          67
+        ]
+      ],
+      "model_output": "[{\"name\": \"serum insulin\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          54,
+          67
+        ]
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Seasonal variation of the cadmium content of Murex trunculus in a non - cadmium polluted environment .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The total area under the blood glucose curve over the initial value was not altered 2 h after treatment with SH B 209 AB or Neogynon .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Serum IgM levels showed a highly significant increase in all types of brain tumour when compared to controls .",
+      "gold": [
+        [
+          "GENE",
+          0,
+          9
+        ]
+      ],
+      "model_output": "[{\"name\": \"IgM\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          6,
+          9
+        ]
+      ],
+      "tp": 0,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "sentence": "Here we describe the characterization of cDNAs encoding two unusual E2Fs , E2F - 4 and E2F - 5 , each identified by the ability of their gene product to interact with p130 in a yeast two - hybrid system .",
+      "gold": [
+        [
+          "GENE",
+          68,
+          72
+        ],
+        [
+          "GENE",
+          75,
+          82
+        ],
+        [
+          "GENE",
+          87,
+          94
+        ],
+        [
+          "GENE",
+          167,
+          171
+        ]
+      ],
+      "model_output": "[{\"name\": \"E2Fs\", \"type\": \"GENE\"}, {\"name\": \"E2F - 4\", \"type\": \"GENE\"}, {\"name\": \"E2F - 5\", \"type\": \"GENE\"}, {\"name\": \"p130\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          68,
+          72
+        ],
+        [
+          "GENE",
+          75,
+          82
+        ],
+        [
+          "GENE",
+          87,
+          94
+        ],
+        [
+          "GENE",
+          167,
+          171
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Ultra - energy ( UHE ) imaging is usually performed in simultaneous F - 18 FDG / Tc - 99m MIBI studies .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "However , electron microscopy revealed that while sec4 mutant cells accumulate secretory vesicles , ypt31 / 32 mutant cells accumulate aberrant Golgi structures .",
+      "gold": [
+        [
+          "GENE",
+          50,
+          61
+        ],
+        [
+          "GENE",
+          100,
+          117
+        ]
+      ],
+      "model_output": "[{\"name\": \"sec4 mutant\", \"type\": \"GENE\"}, {\"name\": \"ypt31 / 32 mutant\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          50,
+          61
+        ],
+        [
+          "GENE",
+          100,
+          117
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Furthermore , Grap is associated with a Ras guanine nucleotide exchange factor mSos1 , primarily through its N - terminal SH3 domain .",
+      "gold": [
+        [
+          "GENE",
+          14,
+          18
+        ],
+        [
+          "GENE",
+          40,
+          78
+        ],
+        [
+          "GENE",
+          79,
+          84
+        ],
+        [
+          "GENE",
+          109,
+          132
+        ]
+      ],
+      "model_output": "[{\"name\": \"Grap\", \"type\": \"GENE\"}, {\"name\": \"Ras guanine nucleotide exchange factor mSos1\", \"type\": \"GENE\"}, {\"name\": \"N - terminal SH3 domain\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          14,
+          18
+        ],
+        [
+          "GENE",
+          40,
+          84
+        ],
+        [
+          "GENE",
+          109,
+          132
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 2
+    },
+    {
+      "sentence": "Correlation of nitrogen , carbohydrate and lipid metabolic indices in rats cooled under conditions of an altered gaseous environment",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Transfer of F - like plasmids is regulated by the FinOP system , which controls the expression of traJ , a positive regulator of the transfer operon .",
+      "gold": [
+        [
+          "GENE",
+          50,
+          55
+        ],
+        [
+          "GENE",
+          98,
+          102
+        ]
+      ],
+      "model_output": "[{\"name\": \"F\", \"type\": \"GENE\"}, {\"name\": \"FinOP\", \"type\": \"GENE\"}, {\"name\": \"traJ\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          12,
+          13
+        ],
+        [
+          "GENE",
+          50,
+          55
+        ],
+        [
+          "GENE",
+          98,
+          102
+        ]
+      ],
+      "tp": 2,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "This regimen may be considered front - line therapy when autologous stem cell transplantation is not feasible and when a rapid response is particularly important .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "To investigate this issue , we used a recognition task in which two strings of letters are presented sequentially .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Comparison to the murine homologues of these molecules reveals a high degree of conservation between the products of one of these genes , Fc gamma RIIb , and the murine beta gene in primary sequence , splicing pattern , and tissue distribution .",
+      "gold": [
+        [
+          "GENE",
+          138,
+          151
+        ],
+        [
+          "GENE",
+          162,
+          178
+        ]
+      ],
+      "model_output": "[{\"name\": \"Fc gamma RIIb\", \"type\": \"GENE\"}, {\"name\": \"murine beta gene\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          138,
+          151
+        ],
+        [
+          "GENE",
+          162,
+          178
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "A rabbit antiserum raised against a unique ( V3 domain ) bacterially expressed PKC theta fragment immunoprecipitated specifically an 82 - kDa protein from Jurkat cell lysates .",
+      "gold": [
+        [
+          "GENE",
+          79,
+          97
+        ]
+      ],
+      "model_output": "[{\"name\": \"V3 domain\", \"type\": \"GENE\"}, {\"name\": \"PKC theta fragment\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          45,
+          54
+        ],
+        [
+          "GENE",
+          79,
+          97
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "These changes persisted during the first week .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Hematological parameters ( leukocyte , neutrophil and platelet counts ) and liver function tests were determined by standard procedures .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "( 1993 ) 8 , 94 - 99 ) .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "The effect of betamethasone on duodenal calcium absorption and 1 , 25 - dihydroxy vitamin D3 production in the chick .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Phosphate compounds in isolated , perfused hearts during pH variation due to changes in extracellular PCO2 and bicarbonate",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "We report on a case discovered in a 13 year - old girl presenting with anaemia .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Although analysis of the similarity between the 44 - kDa protein and the E . coli RecA protein did not show any significant homology between them , it revealed their identity by five amino - acid residues involved in the formation of the epitope that recognized the paratope of the RecA protein antibody for subsequent epitope - paratope binding of these proteins .",
+      "gold": [
+        [
+          "GENE",
+          73,
+          94
+        ],
+        [
+          "GENE",
+          282,
+          303
+        ]
+      ],
+      "model_output": "[{\"name\": \"E . coli RecA protein\", \"type\": \"GENE\"}, {\"name\": \"RecA protein antibody\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          73,
+          94
+        ],
+        [
+          "GENE",
+          282,
+          303
+        ]
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "It would seem that caution should be exercised in using HPL values as an index of placental function in anaemic women .",
+      "gold": [
+        [
+          "GENE",
+          56,
+          59
+        ]
+      ],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "sentence": "No IORT related mortality has been observed .",
+      "gold": [],
+      "model_output": "[]",
+      "predicted": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Characterization of a tonB - phoA gene fusion suggests that the amino - terminal 41 amino acids of TonB are sufficient to promote export of the fusion protein and presumably TonB as well .",
+      "gold": [
+        [
+          "GENE",
+          22,
+          26
+        ],
+        [
+          "GENE",
+          29,
+          33
+        ],
+        [
+          "GENE",
+          99,
+          103
+        ],
+        [
+          "GENE",
+          174,
+          178
+        ]
+      ],
+      "model_output": "[{\"name\": \"tonB\", \"type\": \"GENE\"}, {\"name\": \"phoA\", \"type\": \"GENE\"}, {\"name\": \"TonB\", \"type\": \"GENE\"}, {\"name\": \"TonB\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          22,
+          26
+        ],
+        [
+          "GENE",
+          29,
+          33
+        ],
+        [
+          "GENE",
+          99,
+          103
+        ],
+        [
+          "GENE",
+          174,
+          178
+        ]
+      ],
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "sentence": "Characterization of a unique protein component of yeast RNase MRP : an RNA - binding protein with a zinc - cluster domain .",
+      "gold": [
+        [
+          "GENE",
+          50,
+          65
+        ]
+      ],
+      "model_output": "[{\"name\": \"yeast RNase MRP\", \"type\": \"GENE\"}, {\"name\": \"RNA - binding protein\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          50,
+          65
+        ],
+        [
+          "GENE",
+          71,
+          92
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "sentence": "This raises the possibility that recombination occurred between corresponding LTR and vif loci of the quasi - species present in the isolates described here .",
+      "gold": [
+        [
+          "GENE",
+          86,
+          94
+        ]
+      ],
+      "model_output": "[{\"name\": \"LTR\", \"type\": \"GENE\"}, {\"name\": \"vif loci\", \"type\": \"GENE\"}]",
+      "predicted": [
+        [
+          "GENE",
+          78,
+          81
+        ],
+        [
+          "GENE",
+          86,
+          94
+        ]
+      ],
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    }
+  ]
+}
