@@ -1,8 +1,8 @@
 {
-  "experiment_name": "qwen7b_bc2gm_qlora_final",
-  "model_path": "/root/autodl-tmp/demo3/models/Qwen2.5-7B-Instruct",
+  "experiment_name": "qwen7b_base_bc2gm_qlora_final",
+  "model_path": "/root/autodl-tmp/demo3/models/Qwen2.5-7B",
   "data_dir": "data/raw",
-  "output_dir": "outputs/qwen7b_bc2gm_qlora_final",
+  "output_dir": "outputs/qwen7b_base_bc2gm_qlora_final",
   "method": "qlora",
   "max_length": 512,
   "max_new_tokens": 256,
@@ -21,7 +21,7 @@
   "gradient_checkpointing": true,
   "lora_r": 16,
   "lora_alpha": 32,
-  "lora_dropout": 0.10,
+  "lora_dropout": 0.05,
   "target_modules": [
     "q_proj",
     "k_proj",
@@ -36,7 +36,7 @@
   "use_swanlab": true,
   "swanlab_project": "demo3-qwen7b-bc2gm",
   "swanlab_mode": "cloud",
-  "run_test_after_train": false,
+  "run_test_after_train": true,
   "test_limit": null,
   "instruction": "You are a biomedical named entity recognition system. Extract all GENE entities from the given sentence. Return only one JSON object in the form {\"entities\":[{\"name\":\"entity name\",\"type\":\"GENE\"}]}. If there are no GENE entities, return {\"entities\":[]}."
 }

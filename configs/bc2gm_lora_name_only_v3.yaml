@@ -1,0 +1,47 @@
+### model
+model_name_or_path: /root/autodl-tmp/demo3/llama/models/Qwen2.5-0.5B-Instruct
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: all
+
+### dataset
+dataset: bc2gm_train_name_only
+eval_dataset: bc2gm_dev_name_only
+dataset_dir: /root/autodl-tmp/demo3/llama/data
+template: qwen
+cutoff_len: 512
+max_samples: 12500
+overwrite_cache: true
+preprocessing_num_workers: 1
+dataloader_num_workers: 0
+
+### output
+output_dir: /root/autodl-tmp/demo3/llama/outputs/bc2gm_lora_name_only_v3
+overwrite_output_dir: true
+logging_steps: 10
+save_steps: 400
+plot_loss: true
+report_to: none
+
+### SwanLab
+use_swanlab: true
+swanlab_project: demo3-llamafactory
+swanlab_run_name: qwen05b_bc2gm_name_only_v3
+swanlab_mode: cloud
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 1
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+fp16: true
+ddp_timeout: 180000000

@@ -5,12 +5,17 @@ __pycache__/
 
 models/
 outputs/
+cache/
+envs/
 swanlog/
 
 data/raw/*.json
 !data/raw/.gitkeep
 
+*.safetensors
+*.bin
+*.ckpt
 *.log
+*.jsonl
 *.tar.gz
 *.zip
-
